@@ -2,8 +2,8 @@
 layout: page
 title: About
 ---
+currently pursuing my B.Tech Degree in Computer Science and Engineering at Rajarambapu Institute of Technology, Islampur.
+Enthusiastic about open source,security research and python programming.
 
-This is a dark theme suitable for hacker blogs. 
-
-[Demo](http://webjeda.com/dark-side/) [Repo](https://github.com/sharu725/dark-side)
-
+Email ID: sonalkumarkadelwar@gmail.com
+github profile: github.com/sonalkumark
